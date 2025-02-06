@@ -25,11 +25,10 @@ export default function Register() {
       return;
     }
     if (isNaN(edad) || edad <= 0 || edad > 99) {
-        //Alert.alert('Error', 'La edad debe ser un número válido entre 1 y 99.');
+    Alert.alert('Error', 'La edad debe ser un número válido entre 1 y 99.');
     
-
-    // Si todo está bien, muestra el mensaje
     }
+    // Si todo está bien, muestra el mensaje
     Alert.alert('Bienvenido', `Hola, ${usuario.nombre} Tienes ${usuario.edad} años.`);
   };
 
